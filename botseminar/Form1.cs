@@ -45,18 +45,14 @@ namespace botseminar
             }
 
         }
-    
-
-
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
         public static string getAuthForUser()
         {
-            string fileName = @"auth_vk.txt";
-            string token = "";
+            string fileName = "auth_vk.txt";
+            string token = "2ac7969805d15eca96887b8f2d939c358635bc6ee29e1acded3f640be46e4e7ecf2bd541c6874f1ada820";
             try
             {
                 using (StreamReader sr = new StreamReader(fileName))
