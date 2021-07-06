@@ -35,13 +35,7 @@ namespace botseminar
             });
             foreach (User user in getFriends)
             {
-                s += user.FirstName + user.LastName + "\n";
-                s += user.Sex + "\n";
-                s += user.Relation + "\n";
-                s += user.HasMobile;
-                s += user.BirthDate;
-                listBox1.Items.Add(s);
-                s = "";
+                listBox1.Items.Add(Encoding.UTF8.GetString(Encoding.Default.GetBytes(user.FirstName)) + " " + Encoding.UTF8.GetString(Encoding.Default.GetBytes(user.LastName)) + " " + user.Sex + " " + user.BirthDate);
             }
 
         }
