@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace botseminar
 {
-    public partial class Form2 : Form
+    public partial class Menu : Form
     {
-        public Form2()
+        public Menu()
         {
             InitializeComponent();
         }
@@ -25,8 +25,14 @@ namespace botseminar
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form3 form3 = new Form3();
+            Age form3 = new Age();
             form3.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Posts form1 = new Posts();
+            form1.Show();
         }
     }
 }

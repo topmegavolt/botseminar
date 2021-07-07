@@ -15,16 +15,16 @@ using System.Globalization;
 
 namespace botseminar
 {
-    public partial class Form3 : Form
+    public partial class Age : Form
     {
-        public Form3()
+        public Age()
         {
             InitializeComponent();
         }
         public static string getAuthForGroup()
         {
             string fileName = @"auth_vk.txt";
-            string token = "";
+            string token = "716fe24a5db66f3eae3e39fd6f00a5871858a69ca947ca3b39ef15f5128eed66b5d15feeec157d66dfc8a";
             try
             {
                 using (StreamReader sr = new StreamReader(fileName))
@@ -41,7 +41,7 @@ namespace botseminar
         public static string getAuthForUser()
         {
             string fileName = @"auth_vk.txt";
-            string token = "";
+            string token = "716fe24a5db66f3eae3e39fd6f00a5871858a69ca947ca3b39ef15f5128eed66b5d15feeec157d66dfc8a";
             try
             {
                 using (StreamReader sr = new StreamReader(fileName))
