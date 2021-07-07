@@ -40,7 +40,7 @@ namespace botseminar
         }
         public static string getAuthForUser()
         {
-            string fileName = @"роп.txt";
+            string fileName = @"auth_vk.txt";
             string token = "";
             try
             {

@@ -19,8 +19,8 @@ namespace botseminar
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
-            form1.Show();
+            Form5 form5 = new Form5();
+            form5.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
